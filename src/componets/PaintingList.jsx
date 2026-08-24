@@ -6,6 +6,7 @@ export default function PaintingList({ items }) {
       {items.map((item) => (
         <li key={item.id}>
           <PaintingItem
+            // element = {item}
             url={item.url}
             title={item.title}
             author={item.author.tag}
