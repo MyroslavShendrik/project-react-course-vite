@@ -1,5 +1,4 @@
 export default function PaintingItem({
-//   element,
   url,
   title,
   author,
@@ -7,7 +6,6 @@ export default function PaintingItem({
   price,
   quantity,
 }) {
-    // console.log("element:",element);
   return (
     <>
       <img src={url} alt={title} width="480" />
